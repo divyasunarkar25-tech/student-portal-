@@ -1,9 +1,9 @@
+
 header {
   background-color: #fdb12e;   
   padding: 10px;
   font-size:xx-large;
   border-radius: 80px;
-  border-width: 10px;
 }
 a:hover {
   color: #f9eb8f;            
@@ -55,7 +55,7 @@ img{
     padding: 20px;              
     background: #fed1d1;         
     border-radius: 10px;          
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);   
+    box-shadow: 4px 4px 7px rgba(0,0,0,0.2);   
        
 }
 .course:hover{
