@@ -1,37 +1,62 @@
-
-header {
-  background-color: #fdb12e;   
-  padding: 10px;
-  font-size:xx-large;
-  border-radius: 80px;
+ header {
+  background-color: #1a2d3b;   
+  padding:10px;
+  font-size:20px;
+  display:flex;
 }
 a:hover {
-  color: #f9eb8f;            
+  color: #f95625;            
 }
 h1 {
-  margin-top: 60px;
-  color:  darkblue;
-  font-size: 32px;
+ color:  rgb(245, 248, 245);
+ font-size: 40px;
+ font-style:oblique;
+ background-color: #1a2d3b;
+ border-radius: 30px;
+}
+
+h2 { color: rgb(241, 239, 239);
+  background-color: #2f5169;
+  padding: 20px;
+  font-size: 30px;
+}
+h3{
+  font-size: 20px;
 }
 
 body {
   text-align: center;
-  background-color: rgb(253, 253, 216);
+  background-color: rgb(253, 252, 216);
 }
 ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
 }
 li {
   display: inline;
-  margin: 10px;
+  margin: 20px;
+  background-color: #f3f5b9;
+  padding: 20px;
+  border-radius: 10px;
 }
+.copyright {
+  background-color:  #78aacc;
+}
+
+/* ================contact part ===============*/
+
 .Contact{
    margin-top: 30px;
-   background-color: #caf9fb;
+   background-color:#78aacc;
    padding: 20px;
-   border-radius: 20px;
+  margin: auto; 
+  width: 500px;
 }
+
+
+
+/* ===============feedback section , image ==============*/
+
 .feedback input,
 .feedback button {
   width: 600px;            
@@ -45,10 +70,17 @@ li {
   height: 300px;
   margin-top: 30px;
 }
+/*============image section=========*/
+
 img{
   width: 300px;
-  height:auto;
+  height:300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+
+/*============== course part with hover=============*/
 .course{
     width: 80%;                  
     margin: 20px auto;            
@@ -61,10 +93,10 @@ img{
 .course:hover{
    transform: scale(1.05);      
 }
+/*================grade section==================*/
 main {
     width: 80%;
     margin: 40px auto;
-    text-align: center;
     font-family: Arial, sans-serif;
 }
 table {
@@ -73,12 +105,12 @@ table {
     font-size: 18px;
 }
 thead th {
-    background: #007bff;           
+    background: #f4c8c1;           
     padding: 12px;
     font-size: 20px;
 }
 td, th {
-    border: 1px solid #ccc;
+    border: 2px solid #030303;
     padding: 12px;
 }
 tbody tr:hover {
@@ -89,4 +121,5 @@ table {
     max-width: 100%;
     overflow: hidden;
 }
+
 
